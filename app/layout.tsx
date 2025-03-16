@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SRT Transport",
-  description: "Toronto based trucking company",
+  title: "SRT Transport Inc.",
+  description:
+    "SRT Transport Inc. is a trusted Toronto-based trucking company offering reliable freight transportation services across Canada and the U.S. We specialize in efficient, on-time deliveries with a commitment to safety and customer satisfaction. Contact us for top-tier logistics solutions!",
 };
 
 export default function RootLayout({
