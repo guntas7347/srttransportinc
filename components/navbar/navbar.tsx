@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -6,10 +7,18 @@ const Navbar = () => {
     <>
       <div className="h-20 flex justify-between items-center px-10 text-2xl py-11">
         <div className="flex flex-1 justify-center md:justify-start">
-          <Image src={"/assets/logo.png"} width={150} height={100} alt="Logo" />
-        </div>
+          <Link href="/">
+            {" "}
+            <Image
+              src={"/assets/logo.png"}
+              width={150}
+              height={100}
+              alt="Logo"
+            />
+          </Link>{" "}
+        </div>{" "}
         <h1 className="mb-4 hidden  md:justify-start md:flex md:flex-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900  dark:text-white">
-          SRT Transport Inc.
+          <Link href="/"> SRT Transport Inc. </Link>
         </h1>
         <div className="">
           <svg
