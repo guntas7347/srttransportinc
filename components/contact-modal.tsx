@@ -40,7 +40,7 @@ const ContactModal = ({
 
             <div className="p-4 md:p-5 space-y-4 flex flex-col justify-center items-center">
               <span className="font-semibold">
-                Email: info@srttransportinc.com, chahalr1313@gmail.com
+                Email: info@srttransportinc.com
               </span>
               <span className="font-semibold">Phone: +1 416-455-9663</span>
             </div>
