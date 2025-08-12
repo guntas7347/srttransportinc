@@ -76,7 +76,7 @@ const Contact: FC = () => {
               </div>
               <a href="tel:+14164559663">
                 <h3 className="text-lg font-semibold mb-1">Phone</h3>
-                <p className="text-gray-400">+1 416-455-9663</p>
+                <p className="text-gray-400">+1 (416) 455-9663</p>
               </a>
             </div>
             <div className="flex items-start space-x-4">
