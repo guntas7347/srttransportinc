@@ -65,10 +65,16 @@ const Contact: FC = () => {
               <div className="bg-blue-600 p-3 rounded-lg">
                 <MapPin className="h-6 w-6" />
               </div>
-              <div>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=2+Carroll+Lane+Brantford+ON+N3T-0G1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <h3 className="text-lg font-semibold mb-1">Location</h3>
-                <p className="text-gray-400">Toronto, Ontario, Canada</p>
-              </div>
+                <p className="text-gray-400">
+                  2 Carroll Lane, Brantford, ON N3T 0G1, Canada
+                </p>
+              </a>
             </div>
             <div className="flex items-start space-x-4">
               <div className="bg-blue-600 p-3 rounded-lg">

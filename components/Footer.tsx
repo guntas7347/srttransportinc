@@ -71,7 +71,14 @@ const Footer = () => (
           <ul className="space-y-3 text-gray-400">
             <li className="flex items-center space-x-3">
               <MapPin className="h-5 w-5 text-blue-500 flex-shrink-0" />
-              <span>Toronto, Ontario, Canada</span>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=2+Carroll+Lane+Brantford+ON+N3T-0G1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-400 transition-colors duration-200"
+              >
+                2 Carroll Lane, Brantford, ON N3T 0G1, Canada
+              </a>
             </li>
             <li className="flex items-center space-x-3">
               <Mail className="h-5 w-5 text-blue-500 flex-shrink-0" />
