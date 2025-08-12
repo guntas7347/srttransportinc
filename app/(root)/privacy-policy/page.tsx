@@ -2,8 +2,8 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="md:p-10 p-3 flex flex-col gap-2">
-      <h1 className="text-xl font-semibold">Privacy Policy</h1>
+    <div className="md:p-10 p-3 flex flex-col gap-2 text-gray-300">
+      <h1 className="text-4xl font-semibold">Privacy Policy</h1>
       <p>Last updated: March 16, 2025</p>
       <p>
         This Privacy Policy describes Our policies and procedures on the
